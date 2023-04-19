@@ -16,13 +16,9 @@ const Disclaimer = lazy(() => import('./components/Pages/Disclaimer/Disclaimer')
 const Error404 = lazy(() => import('./components/Pages/404/Error404'))
 const FAQ = lazy(() => import('./components/Pages/FAQ/FAQ'))
 const Home = lazy(() => import('./components/Pages/Home/Home'))
-const Login = lazy(() => import('./components/Pages/Login/Login'))
-const Logout = lazy(() => import('./components/Pages/Logout/Logout'))
 const Menu = lazy(() => import('./components/Pages/Menu/Menu'))
 const Orders = lazy(() => import('./components/Pages/Orders/Orders'))
-const Privacy = lazy(() => import('./components/Pages/Privacy/Privacy'))
-const Register = lazy(() => import('./components/Pages/Register/Register'))
-const Terms = lazy(() => import('./components/Pages/Terms/Terms'))
+
 
 function App(props) {
   useEffect(() => {
